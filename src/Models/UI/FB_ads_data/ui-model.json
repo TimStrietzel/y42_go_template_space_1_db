@@ -1,4 +1,24 @@
 {
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "44b0e9d3-25ea-4fd1-81bd-8cfcfc4a6f44",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "44b0e9d3-25ea-4fd1-81bd-8cfcfc4a6f44",
+        "title": "ads_insights",
+        "transformationType": "INPUT",
+        "datasourceName": "go_facebook_ads",
+        "transformObject": {
+          "source": "src/Integrations/go_facebook_ads",
+          "table": "src/Integrations/go_facebook_ads/ads_insights",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-506 -169"
+    }
+  ],
   "linkDataArray": []
 }
