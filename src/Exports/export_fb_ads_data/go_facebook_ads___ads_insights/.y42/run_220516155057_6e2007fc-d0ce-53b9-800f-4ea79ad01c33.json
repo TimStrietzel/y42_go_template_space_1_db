@@ -1,0 +1,43 @@
+{
+  "request_id": "220516155057_6e2007fc-d0ce-53b9-800f-4ea79ad01c33",
+  "status": "pending",
+  "request": {
+    "export_credentials": "a08a231d-ffa5-4689-90ed-6a0e4c37c96f",
+    "company_credentials": "33f24c6e-f3b5-4c64-83fc-e544dacaf2f4",
+    "export_settings": {
+      "$schema": "https://s.y42.com/exports/big_query/0.0.0/source"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/exports/big_query/0.0.0/table",
+      "datasource_table": "src/Integrations/go_facebook_ads/ads_insights",
+      "dataset_id": "y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9",
+      "table_id": "dwh_facebook_dwh_test_1",
+      "project_id": "todo"
+    },
+    "import_table": "220516151054_8d354f12-55a5-5334-9e75-ed2f3013714a",
+    "created_at": "2022-05-16T15:50:57.777600+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/export_fb_ads_data/go_facebook_ads___ads_insights",
+        "id": "15:80d42aad-7b60-47a7-9d7e-7ae27fe60e03",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "TimStrietzel",
+        "repo": "y42_go_template_space_1_db",
+        "commit_sha": "954aab3c4391e6c2bdee18cd5245856f1a1f8944"
+      }
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "84",
+      "trial": false
+    }
+  },
+  "created_at": "2022-05-16T15:50:57.777600+00:00",
+  "_signature": "3Ccr+1kt8lXXyb4fufpKQeuRrIbLB+vhTjBivka8N0jyBhIVUWeWKABat+fBntcbVbchFi4eZCb2kky/aXgFBQ=="
+}
