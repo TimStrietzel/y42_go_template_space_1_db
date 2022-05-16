@@ -34,14 +34,18 @@
     "nodeStatusArray": {
       "81fc5e96-2f02-492b-b41d-0be1313b09f2": "pending"
     },
-    "jobs": {}
+    "jobs": {
+      "81fc5e96-2f02-492b-b41d-0be1313b09f2": {
+        "run": "src/Integrations/go_facebook_ads/ads_insights/.y42/run_220516230007_08c5659a-5fe2-5ff8-935e-b34a4d7f5bb3.json"
+      }
+    }
   },
   "created_at": "2022-05-16T23:00:06.183588+00:00",
   "finished_at": null,
   "latest_pulse_at": null,
-  "updated_at": "2022-05-16T23:00:06.295606+00:00",
+  "updated_at": "2022-05-16T23:00:07.289466+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "552086a5-4874-45fe-889e-2d4ca56e697a",
-  "_signature": "TzHQo/XhtC0EnqLO3ypZ18shTkwtk47HwxFsWMJaT0m5N1obCfu7hqhsHG7U+QGdhMyaTu61O3NYPXfLSi65BA=="
+  "_lock_token": "6435ae18-038a-4a0e-9c08-f2aa5c5313ee",
+  "_signature": "Io/HHEg9NCBOjzDNDShDngesam6GSurKE+oez+kgg6CK4x52PBziDAA87UVEUe8gKx3YAor9DOOchyh6GO68CQ=="
 }
