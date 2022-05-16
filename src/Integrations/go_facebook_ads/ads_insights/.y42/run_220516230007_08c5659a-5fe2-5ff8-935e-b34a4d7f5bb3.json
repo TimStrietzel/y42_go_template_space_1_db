@@ -1,6 +1,6 @@
 {
   "request_id": "220516230007_08c5659a-5fe2-5ff8-935e-b34a4d7f5bb3",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "25d4a9ef-2646-4ffc-9f4d-7a03f233053f",
     "target_credentials": "33f24c6e-f3b5-4c64-83fc-e544dacaf2f4",
@@ -117,5 +117,8 @@
     "external_id": "4302f620-40d5-4f8e-a73b-728832d460ce",
     "storage_file": "gs://y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d/userUploads/v2/tap-facebook-datos/b1f8e77f-ecbe-4900-88b9-660c6f7a0fc6"
   },
-  "_signature": "zFn2uTw+X1eRsm8m7o3TzoPunaUvPG2Y3cVs8DhWXoePacCW38LPBBGbUlO69cdmLFa/aZzjeae8bjpWkFVJDQ=="
+  "failed_at": "2022-05-16T23:00:48.615962+00:00",
+  "error_code": 400,
+  "error_message": "400 UPDATE/MERGE must match at most one source row for each target row\n\nLocation: US\nJob ID: 6b6affac-9e79-411e-8b15-52e2211b7c16\n",
+  "_signature": "PXXpVug4d1Vzzr6JnneRuTH4eujyvWEINOY3y4zIsbsWhzuvjywF/Gpe/9QGRqUGF2uBifAYe3eTiJzspV5jDg=="
 }
