@@ -1,0 +1,35 @@
+{
+  "accounts": [
+    {
+      "id": "97846493",
+      "name": "Mundbjerg Ejendomsservice ApS",
+      "description": "Mundbjerg Ejendomsservice ApS "
+    },
+    {
+      "id": "10202752914758478",
+      "name": "TANDL\u00c6GE JANNE LETHAN ApS",
+      "description": "Tandl\u00e6gerne Ryesgade"
+    },
+    {
+      "id": "661096614687166",
+      "name": "Landin & Heyco Byg & Entreprise ApS",
+      "description": ""
+    },
+    {
+      "id": "180568416496312",
+      "name": "Sydbyg ApS",
+      "description": ""
+    },
+    {
+      "id": "270718367759638",
+      "name": "DK Advokaterne I/S",
+      "description": ""
+    },
+    {
+      "id": "1631746700521287",
+      "name": "Yoshi Georgy",
+      "description": ""
+    }
+  ],
+  "_signature": "dabsznfpX9FSP3Zyi6AgOgKSxkT5qfg85GFey7BzoCvmUIZHMH+GTecxnaUv5oeucQaMh0C3Sv9psc/1DEEICg=="
+}
