@@ -1,3 +1,5 @@
 {
-  "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/facebook/0.0.0/source.json"
+  "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/facebook/0.0.0/source.json",
+  "parent_id": "270718367759638",
+  "start_date": "2021-05-16T14:38:08Z"
 }
