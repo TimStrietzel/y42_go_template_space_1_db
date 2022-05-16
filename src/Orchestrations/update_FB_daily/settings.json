@@ -1,7 +1,17 @@
 {
-  "cronExpression": "",
+  "cronExpression": "0/30 * 1/1 * *",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "81fc5e96-2f02-492b-b41d-0be1313b09f2",
+      "path": "src/Integrations/go_facebook_ads/ads_insights",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
