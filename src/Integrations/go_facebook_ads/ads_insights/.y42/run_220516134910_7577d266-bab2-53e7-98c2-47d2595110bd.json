@@ -1,0 +1,114 @@
+{
+  "request_id": "220516134910_7577d266-bab2-53e7-98c2-47d2595110bd",
+  "status": "invalid",
+  "request": {
+    "source_credentials": "25d4a9ef-2646-4ffc-9f4d-7a03f233053f",
+    "target_credentials": "33f24c6e-f3b5-4c64-83fc-e544dacaf2f4",
+    "source_settings": {
+      "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/facebook/0.0.0/source.json",
+      "parent_id": "270718367759638",
+      "start_date": "2021-05-16T14:38:08Z"
+    },
+    "table_settings": {
+      "$schema": "https://storage.googleapis.com/y42-dev-json-schema/integrations/facebook/0.0.0/table",
+      "columns": [
+        "account_currency",
+        "account_id",
+        "account_name",
+        "ad_id",
+        "ad_name",
+        "adset_id",
+        "adset_name",
+        "campaign_id",
+        "campaign_name",
+        "canvas_avg_view_percent",
+        "canvas_avg_view_time",
+        "clicks",
+        "conversion_rate_ranking",
+        "cost_per_inline_link_click",
+        "cost_per_inline_post_engagement",
+        "cost_per_unique_click",
+        "cost_per_unique_inline_link_click",
+        "cpc",
+        "cpm",
+        "cpp",
+        "ctr",
+        "date_start",
+        "date_stop",
+        "engagement_rate_ranking",
+        "frequency",
+        "impressions",
+        "inline_link_click_ctr",
+        "inline_link_clicks",
+        "inline_post_engagement",
+        "objective",
+        "quality_ranking",
+        "reach",
+        "social_spend",
+        "spend",
+        "unique_clicks",
+        "unique_ctr",
+        "unique_inline_link_click_ctr",
+        "unique_inline_link_clicks",
+        "unique_link_clicks_ctr",
+        "action_values",
+        "actions",
+        "conversions",
+        "cost_per_action_type",
+        "cost_per_conversion",
+        "cost_per_unique_action_type",
+        "outbound_clicks",
+        "unique_actions",
+        "video_30_sec_watched_actions",
+        "video_p100_watched_actions",
+        "video_p25_watched_actions",
+        "video_p50_watched_actions",
+        "video_p75_watched_actions",
+        "website_ctr"
+      ],
+      "import": "ads_insights"
+    },
+    "created_at": "2022-05-16T13:49:10.059270+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/go_facebook_ads/ads_insights",
+        "id": "15:80d42aad-7b60-47a7-9d7e-7ae27fe60e03",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "TimStrietzel",
+        "repo": "y42_go_template_space_1_db",
+        "commit_sha": "b0f6e64ea96138241b619c74d3c115438495d511"
+      }
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "6",
+      "trial": false
+    }
+  },
+  "created_at": "2022-05-16T13:49:10.059270+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-05-16T13:50:01.784628+00:00",
+    "external_state": {
+      "bookmarks": {
+        "ads_insights": {
+          "date_start": "2022-05-16"
+        }
+      },
+      "schema_hash": "5cb319f0172d99504abb837b7414c88f"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "ca42d9dd-9a08-4844-b8cd-4bb4e10c3228",
+    "storage_file": "gs://y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d/userUploads/v2/tap-facebook-datos/512ba78e-2b98-4254-b434-75e0d6c13507"
+  },
+  "failed_at": "2022-05-16T13:50:06.194225+00:00",
+  "error_code": 500,
+  "error_message": "403 Access Denied: File gs://y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d/userUploads/v2/tap-facebook-datos/512ba78e-2b98-4254-b434-75e0d6c13507: Access Denied",
+  "_signature": "xqzkARHiChdSpSNs6iOYM0/POVfjwPZZdyB6RbYPkOEB+xXYzJ0Kn9LOeNLiPC9CrGH6nMlxPUIRUmbYrcr5DA=="
+}
