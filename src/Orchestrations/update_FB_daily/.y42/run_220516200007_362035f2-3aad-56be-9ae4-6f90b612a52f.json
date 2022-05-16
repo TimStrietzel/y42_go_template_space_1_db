@@ -1,0 +1,47 @@
+{
+  "run_id": "220516200007_362035f2-3aad-56be-9ae4-6f90b612a52f",
+  "status": "pending",
+  "request": {
+    "target": {
+      "storage": {
+        "id": "15:80d42aad-7b60-47a7-9d7e-7ae27fe60e03",
+        "type": "githubapp",
+        "path": "/src/Orchestrations/update_FB_daily",
+        "branch": "main"
+      },
+      "info": {}
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "orchestration"
+    }
+  },
+  "details": {
+    "linkDataArray": [],
+    "nodeDataArray": [
+      {
+        "key": "81fc5e96-2f02-492b-b41d-0be1313b09f2",
+        "path": "src/Integrations/go_facebook_ads/ads_insights",
+        "location": "0 0",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      }
+    ],
+    "visualDataArray": [],
+    "nodeStatusArray": {
+      "81fc5e96-2f02-492b-b41d-0be1313b09f2": "pending"
+    },
+    "jobs": {}
+  },
+  "created_at": "2022-05-16T20:00:07.919315+00:00",
+  "finished_at": null,
+  "latest_pulse_at": null,
+  "updated_at": "2022-05-16T20:00:08.032661+00:00",
+  "canceled_at": null,
+  "failed_at": null,
+  "_lock_token": "0c8d0abe-0411-4fb5-8189-d468796b44b2",
+  "_signature": "9XjVdwA6AJQ87n7J8IbcpIcDr3bCJB67L9L37y58uvnIrPXxArn/mmwaHTVPxQ5M+U+F6ZwIb57P2LpanShpBg=="
+}
