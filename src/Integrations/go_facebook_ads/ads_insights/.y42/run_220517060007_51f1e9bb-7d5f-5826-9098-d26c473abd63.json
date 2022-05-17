@@ -102,5 +102,20 @@
     "previous_table_id": "220516151054_8d354f12-55a5-5334-9e75-ed2f3013714a"
   },
   "created_at": "2022-05-17T06:00:07.289665+00:00",
-  "_signature": "6mxhKN858rkfWhks5wLnIa2B7Ln2ObqDR037zv2cMNaPD9Sig8tmAGDzSQGa2GQa9E/GrYXDIe+ewcY5/rTtCA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-05-17T06:00:36.533079+00:00",
+    "external_state": {
+      "bookmarks": {
+        "ads_insights": {
+          "date_start": "2022-05-17"
+        }
+      },
+      "schema_hash": "5cb319f0172d99504abb837b7414c88f"
+    },
+    "write_disposition": "APPEND",
+    "external_id": "65b6e220-477f-4f61-9670-49a5949bb5dc",
+    "storage_file": "gs://y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d/userUploads/v2/tap-facebook-datos/7628f07c-93b1-44d0-b9db-135b79284cd4"
+  },
+  "_signature": "cf1IrRGU8UrO+ed8h8EqAhz3eSjJnuRAupVCSGiHFZDUyhqPHOPy4DovCT3P4oqYgWDSd6uJ3sZMvJM3V3x2Cw=="
 }
