@@ -1,6 +1,6 @@
 {
   "request_id": "220518183426_3c706388-f1a3-5b8d-ac45-0469fe948952",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "25d4a9ef-2646-4ffc-9f4d-7a03f233053f",
     "target_credentials": "33f24c6e-f3b5-4c64-83fc-e544dacaf2f4",
@@ -107,5 +107,8 @@
     "external_id": "92e3d253-9b8f-4f49-866d-48f038e79df1",
     "storage_file": "gs://y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d/userUploads/v2/tap-facebook-datos/b9670f61-3d25-4d11-bff2-3781fd18829c"
   },
-  "_signature": "aSLX/YHLQPUvnV4nEi7deC4H7nrbjapyq/1VfjVcVQbQp0x0Wwz8lE5sRGDZ/fb7W9vDcvdL/sEoxgyFxOvWBQ=="
+  "failed_at": "2022-05-18T18:35:56.515860+00:00",
+  "error_code": 500,
+  "error_message": "403 Access Denied: File gs://y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d/userUploads/v2/tap-facebook-datos/b9670f61-3d25-4d11-bff2-3781fd18829c: Access Denied",
+  "_signature": "QjfF5nnk52xe8zx1uCL5RIIGt4fkgimJWHHYuK4FdHyf7XAKQmu2rET69aGQtv+zV2RNdQ6CAJVsquAL26S8AA=="
 }
