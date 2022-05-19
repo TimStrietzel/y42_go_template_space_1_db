@@ -1,6 +1,6 @@
 {
   "request_id": "220519155602_9564405c-e195-5d3b-b9c7-c4d956b63c3c",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "export_credentials": "a08a231d-ffa5-4689-90ed-6a0e4c37c96f",
     "company_credentials": "33f24c6e-f3b5-4c64-83fc-e544dacaf2f4",
@@ -39,5 +39,9 @@
     }
   },
   "created_at": "2022-05-19T15:56:02.271259+00:00",
-  "_signature": "Qb/damynnGXef6Q9AoklEjDgT7qrwZ8KaCaVIvUj9nkRIRf8eKpmgQNYD48fJMbAePA/bFXNy6B3IBtOjhYgAA=="
+  "finished_at": "2022-05-19T15:56:38.313406+00:00",
+  "details": {
+    "external_url": "https://console.cloud.google.com/bigquery?p=y42-solution-engineering&d=y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9&t=dwh_facebook_dwh_test_1&page=table"
+  },
+  "_signature": "raL/nGKxgExOP5y8vtEi4xPMxDFhNfl+fsm9G28neyJPVam957Zb9iGKUcbNlFzaMBS2ED2T1DrZbkoyQFV1Ag=="
 }
