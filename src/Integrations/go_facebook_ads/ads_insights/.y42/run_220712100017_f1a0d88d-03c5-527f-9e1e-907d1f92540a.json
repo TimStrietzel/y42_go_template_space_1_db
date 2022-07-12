@@ -102,10 +102,10 @@
     "previous_table_id": "220516151054_8d354f12-55a5-5334-9e75-ed2f3013714a"
   },
   "created_at": "2022-07-12T10:00:17.549973+00:00",
-  "finished_at": "2022-07-12T10:02:17.145579+00:00",
+  "finished_at": "2022-07-12T10:03:24.653065+00:00",
   "details": {
     "invalid_rows": 0,
-    "export_finished_at": "2022-07-12T10:02:17.145579+00:00",
+    "export_finished_at": "2022-07-12T10:03:24.653065+00:00",
     "row_count": 121,
     "current_import_row_count": 0,
     "external_state": {
@@ -386,5 +386,5 @@
     "table_name": "220516151054_8d354f12-55a5-5334-9e75-ed2f3013714a",
     "external_url": "https://console.cloud.google.com/bigquery?p=y42-solution-engineering&d=y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d&t=220516151054_8d354f12-55a5-5334-9e75-ed2f3013714a&page=table"
   },
-  "_signature": "5h4XgCe0LNY00SfCu+o/AT79Dw5ep77Xs4IWextEBZ/K1+QmIL1fsAG2PjjWczRs1Iy/sXNC+jo/qfRa2rLjCA=="
+  "_signature": "WG78UUesEo2IXD8HVy03MGCTC8peo0n6774nsxLTqeO9klcf90Mt3ifxzqmfl7PAB7aoqLd20Xgib+O6YorYDQ=="
 }
